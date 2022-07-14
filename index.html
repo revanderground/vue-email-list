@@ -31,20 +31,13 @@
    
     <h1 class="text-center">Lista Email</h1>
     
-    <div class="text-center row justify-content-center">
-        <ul class="col-4 email-list" v-if="emails.length == 10">
-            <li v-for="email in emails">{{email}}</li>
-        </ul>
-    </div>
-  
-    
-
+        <div class="text-center row justify-content-center">
+            <ul class="col-8 email-list" v-if="emails.length == 10">
+                <li class="py-3" v-for="email in emails">{{email}}</li>
+            </ul>
+        </div>
         
     </div>
-    
-
-
-
 
        <!-- My javascript-->
        <script src="js/main.js"></script>
