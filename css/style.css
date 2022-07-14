@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(255, 138, 200);
+}
+
+.email-list {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size:large;
+    font-weight: bold;
+    border: 2px solid rgba(255, 225, 0, 0.8);
+    margin-top: 3px;
+}
+
